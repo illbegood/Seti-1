@@ -80,7 +80,6 @@ class ListenRunnable implements Runnable{
 public class Main
 {
     static HashSet<Pair<InetAddress, Integer>> members = new HashSet<>();
-    static int count;
     final static int port = 4446;
     final static String DG = "0";
     public static void main(String[] args) throws IOException{
